@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zahidul Islam | Certified Industrial Welder</title>
+    <!-- Custom Welding Themed Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%23020617%22/><path d=%22M30 70 L50 30 L70 70 Z%22 fill=%22%23f59e0b%22/><circle cx=%2250%22 cy=%2230%22 r=%2215%22 fill=%22%23fef08a%22/></svg>">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; overflow-x: hidden; text-align: center; }
+        @media (min-width: 768px) { body { text-align: left; } }
+        h1, h2, h3, h4 { font-family: 'Sora', sans-serif; }
+        .glass-card {
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(245, 158, 11, 0.25);
+        }
+        .glow-amber {
+            box-shadow: 0 0 35px -5px rgba(245, 158, 11, 0.35);
+        }
+        .process-card:hover {
+            box-shadow: 0 0 30px 0px rgba(245, 158, 11, 0.4);
+            border-color: rgba(245, 158, 11, 0.8);
+            transform: translateY(-4px);
+        }
+        .text-gradient {
+            background: linear-gradient(135deg, #fef08a 0%, #f59e0b 50%, #d97706 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased selection:bg-amber-500 selection:text-slate-950">
+
+<!-- Navigation Bar -->
+<nav class="fixed w-full z-50 bg-slate-950/90 backdrop-blur-md border-b border-slate-800/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex justify-between items-center">
+        <a href="#home" class="flex items-center space-x-2 group cursor-pointer" title="Go to Top">
+            <span class="w-3 h-3 rounded-full bg-amber-500 animate-ping"></span>
+            <span class="text-base sm:text-xl font-extrabold tracking-wider text-white group-hover:text-amber-400 transition-colors">
+                ZAHIDUL <span class="text-amber-500 group-hover:text-white transition-colors">ISLAM</span>
+            </span>
+        </a>
+        <div class="hidden lg:flex space-x-5 text-xs font-bold uppercase tracking-widest text-slate-300">
+            <a href="#about" class="hover:text-amber-400 transition-colors">About</a>
+            <a href="#skills" class="hover:text-amber-400 transition-colors">Skills</a>
+            <a href="#gallery" class="hover:text-amber-400 transition-colors">Gallery</a>
+            <a href="#certifications" class="hover:text-amber-400 transition-colors">Certifications</a>
+            <a href="#experience" class="hover:text-amber-400 transition-colors">Experience</a>
+            <a href="#contact" class="hover:text-amber-400 transition-colors">Contact</a>
+        </div>
+        <!-- Mobile Menu Quick Button matched with standard style -->
+        <div class="lg:hidden flex items-center">
+            <a href="#gallery" class="px-3.5 py-2 bg-slate-900 border border-slate-800 text-slate-300 hover:text-amber-400 rounded-lg text-xs font-bold uppercase tracking-wider transition-colors">Gallery</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<header id="home" class="relative min-h-screen flex items-center pt-28 sm:pt-24 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-slate-900 via-slate-950 to-slate-950 px-4 sm:px-6">
+    <div class="max-w-6xl mx-auto flex flex-col items-center text-center relative z-10 w-full">
+        <div class="inline-flex items-center space-x-2 px-3 sm:px-4 py-2 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400 text-[10px] sm:text-xs font-bold uppercase tracking-widest mb-6 sm:mb-8">
+            <span class="w-2 h-2 rounded-full bg-amber-400 animate-ping"></span>
+            <span>Groove & Fillet Industrial Specialist</span>
+        </div>
+        <h1 class="text-4xl sm:text-6xl md:text-7xl font-extrabold mb-6 tracking-tight text-white leading-tight">
+            Precision Welding.<br><span class="text-gradient">Maximum Strength Joints.</span>
+        </h1>
+        <p class="text-sm sm:text-lg md:text-2xl text-slate-400 mb-8 sm:mb-10 max-w-3xl font-light leading-relaxed px-2 mx-auto">
+            Technical background in Science with hands-on expertise in MIG/MAG, TIG, and SMAW processes for Groove and Fillet welds.
+        </p>
+        
+        <div class="flex flex-wrap justify-center gap-2 sm:gap-4 text-[11px] sm:text-xs font-semibold text-slate-400 mb-8 sm:mb-10 px-2">
+            <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800">📍 Dhaka, Bangladesh</span>
+            <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800">📱 +880 1949139550</span>
+            <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800">✉️ learner.zahid@gmail.com</span>
+        </div>
+
+        <div class="flex flex-wrap justify-center gap-4 w-full sm:w-auto px-4">
+            <a href="#gallery" class="w-full sm:w-auto px-7 py-3.5 bg-amber-500 text-slate-950 rounded-xl font-extrabold hover:bg-amber-400 transition-all glow-amber uppercase tracking-wider text-xs flex items-center justify-center space-x-2">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z"/></svg>
+                <span>Explore Masterpiece Gallery</span>
+            </a>
+            <a href="#certifications" class="w-full sm:w-auto px-7 py-3.5 bg-slate-900 border border-slate-700 text-slate-200 rounded-xl font-bold hover:bg-slate-800 transition-all uppercase tracking-wider text-xs flex items-center justify-center">
+                View Certifications
+            </a>
+        </div>
+    </div>
+</header>
+
+<!-- About Section -->
+<section id="about" class="py-20 sm:py-24 bg-slate-900/50 border-t border-slate-800 px-4 sm:px-6">
+    <div class="max-w-6xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-12 sm:gap-16 items-center">
+            <div class="text-center md:text-left">
+                <h2 class="text-2xl sm:text-3xl font-bold mb-6 text-white">Work Summary & Objective</h2>
+                <p class="text-slate-300 text-sm sm:text-base mb-6 leading-relaxed">
+                    Motivated, disciplined, and practical Welder with a strong technical background in Science. Skilled in joint preparation, edge beveling, root pass control, and slag cleaning across multi-process welding.
+                </p>
+                <div class="grid grid-cols-3 gap-2 sm:gap-3 text-center text-[10px] sm:text-xs font-bold">
+                    <div class="p-2 sm:p-3 bg-slate-900 rounded-lg border border-slate-800 text-amber-400">English: Intermediate</div>
+                    <div class="p-2 sm:p-3 bg-slate-900 rounded-lg border border-slate-800 text-amber-400">Portuguese: Basic</div>
+                    <div class="p-2 sm:p-3 bg-slate-900 rounded-lg border border-slate-800 text-amber-400">Bengali: Native</div>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 gap-3 sm:gap-4">
+                <div class="glass-card p-5 sm:p-6 rounded-2xl text-center">
+                    <span class="block text-2xl sm:text-3xl font-extrabold text-amber-500 mb-1">Groove</span>
+                    <span class="text-[10px] sm:text-xs font-bold text-slate-400 uppercase">1G-4G Plate & Pipe</span>
+                </div>
+                <div class="glass-card p-5 sm:p-6 rounded-2xl text-center">
+                    <span class="block text-2xl sm:text-3xl font-extrabold text-amber-500 mb-1">Fillet</span>
+                    <span class="text-[10px] sm:text-xs font-bold text-slate-400 uppercase">1F-4F Joint Alignment</span>
+                </div>
+                <div class="glass-card p-5 sm:p-6 rounded-2xl text-center">
+                    <span class="block text-2xl sm:text-3xl font-extrabold text-amber-500 mb-1">100%</span>
+                    <span class="text-[10px] sm:text-xs font-bold text-slate-400 uppercase">PPE Safety Compliant</span>
+                </div>
+                <div class="glass-card p-5 sm:p-6 rounded-2xl text-center">
+                    <span class="block text-2xl sm:text-3xl font-extrabold text-amber-500 mb-1">Science</span>
+                    <span class="text-[10px] sm:text-xs font-bold text-slate-400 uppercase">HSC & SSC (GPA 5)</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CLEAN & UNIQUE GALLERY SECTION (Direct Drive Link Buttons) -->
+<section id="gallery" class="py-20 sm:py-24 bg-slate-950 border-t border-slate-900 relative overflow-hidden px-4 sm:px-6">
+    <div class="max-w-5xl mx-auto relative z-10 text-center">
+        <span class="text-amber-500 font-bold text-[10px] sm:text-xs uppercase tracking-widest px-4 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/20 inline-block mb-3">Live Practical Repository</span>
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-4">Masterpiece Welding Gallery</h2>
+        <p class="text-slate-400 text-xs sm:text-sm max-w-xl mx-auto mb-12">Click any welding process below to explore live practice videos and execution proofs directly in Google Drive.</p>
+
+        <!-- 4 Stylish Process Cards -->
+        <div class="grid sm:grid-cols-2 gap-6 text-left">
+            
+            <!-- SMAW -->
+            <a href="https://drive.google.com/drive/folders/1b93yp9UtXsucP2uaTECfj2jyXQOe4Epp?usp=drive_link" target="_blank" class="glass-card p-8 rounded-3xl process-card transition-all duration-300 flex justify-between items-center group">
+                <div>
+                    <span class="text-xs font-bold uppercase tracking-wider text-amber-400 block mb-1">Process 01</span>
+                    <h3 class="font-extrabold text-white text-2xl group-hover:text-amber-400 transition-colors">SMAW</h3>
+                    <p class="text-slate-400 text-xs mt-1">Shielded Metal Arc / Stick Welding</p>
+                </div>
+                <div class="w-12 h-12 rounded-2xl bg-slate-900 border border-slate-800 flex items-center justify-center text-amber-400 group-hover:bg-amber-500 group-hover:text-slate-950 transition-all">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                </div>
+            </a>
+
+            <!-- GMAW -->
+            <a href="https://drive.google.com/drive/folders/1ooPBASG-IHjBb_zaLTM_Zb1HD3iAidQm?usp=drive_link" target="_blank" class="glass-card p-8 rounded-3xl process-card transition-all duration-300 flex justify-between items-center group">
+                <div>
+                    <span class="text-xs font-bold uppercase tracking-wider text-amber-400 block mb-1">Process 02</span>
+                    <h3 class="font-extrabold text-white text-2xl group-hover:text-amber-400 transition-colors">GMAW</h3>
+                    <p class="text-slate-400 text-xs mt-1">Gas Metal Arc / MIG Welding</p>
+                </div>
+                <div class="w-12 h-12 rounded-2xl bg-slate-900 border border-slate-800 flex items-center justify-center text-amber-400 group-hover:bg-amber-500 group-hover:text-slate-950 transition-all">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                </div>
+            </a>
+
+            <!-- GTAW -->
+            <a href="https://drive.google.com/drive/folders/1OmfA_7YjGYGrDI9Br6LmlvDETSZrZ5eH?usp=drive_link" target="_blank" class="glass-card p-8 rounded-3xl process-card transition-all duration-300 flex justify-between items-center group">
+                <div>
+                    <span class="text-xs font-bold uppercase tracking-wider text-amber-400 block mb-1">Process 03</span>
+                    <h3 class="font-extrabold text-white text-2xl group-hover:text-amber-400 transition-colors">GTAW</h3>
+                    <p class="text-slate-400 text-xs mt-1">Gas Tungsten Arc / TIG Welding</p>
+                </div>
+                <div class="w-12 h-12 rounded-2xl bg-slate-900 border border-slate-800 flex items-center justify-center text-amber-400 group-hover:bg-amber-500 group-hover:text-slate-950 transition-all">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                </div>
+            </a>
+
+            <!-- Pipe -->
+            <a href="https://drive.google.com/drive/folders/1Ja0bvFwWTLxh3NxePuDv-GI56Jv9Wu-W?usp=drive_link" target="_blank" class="glass-card p-8 rounded-3xl process-card transition-all duration-300 flex justify-between items-center group">
+                <div>
+                    <span class="text-xs font-bold uppercase tracking-wider text-amber-400 block mb-1">Process 04</span>
+                    <h3 class="font-extrabold text-white text-2xl group-hover:text-amber-400 transition-colors">Pipe</h3>
+                    <p class="text-slate-400 text-xs mt-1">Pipe Welding (2G, 5G, 6G Positions)</p>
+                </div>
+                <div class="w-12 h-12 rounded-2xl bg-slate-900 border border-slate-800 flex items-center justify-center text-amber-400 group-hover:bg-amber-500 group-hover:text-slate-950 transition-all">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                </div>
+            </a>
+
+        </div>
+    </div>
+</section>
+
+<!-- CERTIFICATIONS SECTION -->
+<section id="certifications" class="py-20 sm:py-24 bg-slate-900/40 border-t border-slate-800 px-4 sm:px-6">
+    <div class="max-w-4xl mx-auto text-center">
+        <span class="text-amber-500 font-bold text-[10px] sm:text-xs uppercase tracking-widest px-4 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/20 inline-block mb-3">Verified Credentials</span>
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white mb-4">Certifications & Training</h2>
+        <p class="text-slate-400 text-xs sm:text-sm mb-8">Official training certificates and professional credential documents.</p>
+        
+        <a href="https://drive.google.com/drive/folders/12zbSoIWO9IeR0Onn2SX2nOxHdXPeJDL4?usp=drive_link" target="_blank" class="glass-card p-8 rounded-3xl process-card transition-all duration-300 inline-flex items-center justify-between w-full group">
+            <div class="text-left">
+                <span class="text-xs font-bold uppercase tracking-wider text-amber-400 block mb-1">Secure Repository</span>
+                <h3 class="font-extrabold text-white text-xl sm:text-2xl group-hover:text-amber-400 transition-colors">View All Certifications Folder</h3>
+                <p class="text-slate-400 text-xs mt-1">As-sunnah Skill Development & Training Documents</p>
+            </div>
+            <div class="w-12 h-12 rounded-2xl bg-slate-900 border border-slate-800 flex items-center justify-center text-amber-400 group-hover:bg-amber-500 group-hover:text-slate-950 transition-all shrink-0 ml-4">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+            </div>
+        </a>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="py-20 sm:py-24 bg-slate-900/30 border-t border-slate-800 px-4 sm:px-6">
+    <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-12 sm:mb-16 text-center text-white">Technical Skills & Processes</h2>
+        <div class="grid md:grid-cols-3 gap-6 sm:gap-8 text-center md:text-left">
+            <div class="bg-slate-900 p-6 sm:p-8 rounded-2xl border border-slate-800">
+                <h3 class="text-lg font-bold mb-4 text-amber-400">Welding Processes</h3>
+                <ul class="text-slate-300 text-xs sm:text-sm space-y-3">
+                    <li>✓ MIG/MAG (GMAW)</li>
+                    <li>✓ TIG (GTAW)</li>
+                    <li>✓ Shielded Metal Arc (SMAW)</li>
+                    <li>✓ Multi-Process Operations</li>
+                </ul>
+            </div>
+
+            <div class="bg-slate-900 p-6 sm:p-8 rounded-2xl border border-slate-800">
+                <h3 class="text-lg font-bold mb-4 text-amber-400">Groove & Fillet Skills</h3>
+                <ul class="text-slate-300 text-xs sm:text-sm space-y-3">
+                    <li>✓ Groove Welds (Plate & Pipe)</li>
+                    <li>✓ Fillet Welds (1F to 4F)</li>
+                    <li>✓ Joint Prep & Beveling</li>
+                    <li>✓ Root Pass & Capping</li>
+                </ul>
+            </div>
+
+            <div class="bg-slate-900 p-6 sm:p-8 rounded-2xl border border-slate-800">
+                <h3 class="text-lg font-bold mb-4 text-amber-400">Safety & Standards</h3>
+                <ul class="text-slate-300 text-xs sm:text-sm space-y-3">
+                    <li>✓ Workshop Safety Regulations</li>
+                    <li>✓ PPE Compliance & Hazard Prevention</li>
+                    <li>✓ MS Office Documentation</li>
+                    <li>✓ Material & Stock Handling</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience" class="py-20 sm:py-24 bg-slate-950 border-t border-slate-900 px-4 sm:px-6">
+    <div class="max-w-5xl mx-auto">
+        <h2 class="text-3xl font-bold mb-12 sm:mb-16 text-center text-white">Work Experience & Vocational Training</h2>
+        <div class="space-y-6 sm:space-y-8 text-center md:text-left">
+            <div class="glass-card p-6 sm:p-8 rounded-2xl">
+                <div class="flex flex-col md:flex-row justify-between mb-4">
+                    <div>
+                        <h3 class="text-lg sm:text-xl font-bold text-amber-400">Trainee Welder</h3>
+                        <p class="text-slate-300 text-xs sm:text-sm">As-sunnah Skill Development Institute, Badda, Dhaka</p>
+                    </div>
+                    <span class="text-[10px] sm:text-xs font-semibold px-3 py-1 bg-slate-900 border border-slate-700 text-slate-400 rounded h-fit w-fit mt-2 md:mt-0 mx-auto md:mx-0">Vocational Training</span>
+                </div>
+                <ul class="text-slate-400 text-xs sm:text-sm space-y-2 list-disc list-inside">
+                    <li>Completed hands-on practical training focusing on fundamental welding operations, Groove, and Fillet joints.</li>
+                    <li>Practiced multi-process welding (MIG, TIG, SMAW) on steel plates and pipe joints under certified instruction.</li>
+                    <li>Applied joint fit-up alignment, edge beveling, and weld bead cleaning techniques.</li>
+                </ul>
+            </div>
+
+            <div class="glass-card p-6 sm:p-8 rounded-2xl">
+                <div class="flex flex-col md:flex-row justify-between mb-4">
+                    <div>
+                        <h3 class="text-lg sm:text-xl font-bold text-amber-400">Stock Staff & Packaging Executive</h3>
+                        <p class="text-slate-300 text-xs sm:text-sm">Apex Metal Industries, Jatrabari, Dhaka</p>
+                    </div>
+                    <span class="text-[10px] sm:text-xs font-semibold px-3 py-1 bg-slate-900 border border-slate-700 text-slate-400 rounded h-fit w-fit mt-2 md:mt-0 mx-auto md:mx-0">Metal Industry</span>
+                </div>
+                <ul class="text-slate-400 text-xs sm:text-sm space-y-2 list-disc list-inside">
+                    <li>Handled inventory storage, material organization, and metal product packaging.</li>
+                    <li>Supported warehouse workflow, monitored supply levels, and maintained accurate stock documentation.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-20 sm:py-24 bg-slate-900/50 border-t border-slate-800 px-4 sm:px-6">
+    <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold mb-4 text-center text-white">Get In Touch</h2>
+        <p class="text-slate-400 text-center mb-10 sm:mb-12 text-xs sm:text-sm">Available for industrial fabrication and welding opportunities globally.</p>
+        
+        <div class="glass-card p-6 sm:p-8 rounded-2xl text-center md:text-left">
+            <div class="grid md:grid-cols-2 gap-6 sm:gap-8 mb-8 text-xs sm:text-sm">
+                <div>
+                    <h3 class="text-amber-500 font-semibold text-xs uppercase tracking-wider mb-2">Location</h3>
+                    <p class="text-slate-300">Mendibari, Matuail, Jatrabari, Dhaka – 1362, Bangladesh</p>
+                </div>
+                <div>
+                    <h3 class="text-amber-500 font-semibold text-xs uppercase tracking-wider mb-2">Direct Contact</h3>
+                    <p class="text-slate-300">Phone: +880 1949139550</p>
+                    <p class="text-slate-300">Email: learner.zahid@gmail.com</p>
+                </div>
+            </div>
+            <form class="space-y-4">
+                <input type="text" placeholder="Your Name or Company" class="w-full px-4 py-3.5 bg-slate-950 rounded-lg border border-slate-800 text-slate-200 text-xs sm:text-sm focus:outline-none focus:border-amber-500 transition-colors">
+                <input type="email" placeholder="Email Address" class="w-full px-4 py-3.5 bg-slate-950 rounded-lg border border-slate-800 text-slate-200 text-xs sm:text-sm focus:outline-none focus:border-amber-500 transition-colors">
+                <textarea rows="4" placeholder="Message or Job Opportunity Details" class="w-full px-4 py-3.5 bg-slate-950 rounded-lg border border-slate-800 text-slate-200 text-xs sm:text-sm focus:outline-none focus:border-amber-500 transition-colors"></textarea>
+                <button type="button" class="w-full py-4 bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold rounded-lg transition-all uppercase tracking-widest text-xs">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-8 bg-slate-950 border-t border-slate-900 text-center text-slate-500 text-xs px-4">
+    <p>&copy; 2026 Zahidul Islam | Industrial Welder Portfolio</p>
+</footer>
+
+</body>
+</html>
